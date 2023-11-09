@@ -58,7 +58,7 @@ public class Enemy : MonoBehaviour
                     agent.SetDestination(player.position);
                     anim.SetBool("Fly Forward", true);
                     walking = true;
-                    play(1);
+                    play(2);
                 }
 
                 if (distance <= agent.stoppingDistance)
@@ -87,7 +87,7 @@ public class Enemy : MonoBehaviour
             waitfor = true;
             atacking = true;
             walking = false;
-            play(2);
+            play(0);
             anim.SetBool("Fly Forward", false);
             anim.SetBool("Melee Attack", true);
             yield return new WaitForSeconds(1.2f);
@@ -129,7 +129,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            play(0);
+            play(1);
             anim.SetTrigger("Die");
             Destroy(gameObject, 3f);
         }

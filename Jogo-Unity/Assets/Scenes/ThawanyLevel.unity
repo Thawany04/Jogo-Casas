@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0848146, g: 0.13098687, b: 0.19557026, a: 1}
+  m_IndirectSpecularColor: {r: 0.08490909, g: 0.13098264, b: 0.19560665, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2860,8 +2860,8 @@ MonoBehaviour:
   source: {fileID: 0}
   audios:
   - {fileID: 8300000, guid: 8244f30a1edf60e489680ed4a532cbc2, type: 3}
-  - {fileID: 8300000, guid: 8244f30a1edf60e489680ed4a532cbc2, type: 3}
-  - {fileID: 8300000, guid: 8244f30a1edf60e489680ed4a532cbc2, type: 3}
+  - {fileID: 8300000, guid: 0d78bd817ecd72c478ee91f26d698ffb, type: 3}
+  - {fileID: 8300000, guid: 90e227f3c3b9a9e478fa058e2e040d37, type: 3}
   player: {fileID: 1170761874}
   atacking: 0
   walking: 0
